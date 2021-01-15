@@ -1,0 +1,26 @@
+{
+  "name": "applications",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "manager": {
+      "type": "string",
+      "required": true
+    },
+    "appname": {
+      "type": "string",
+      "required": true
+    },
+    "appnumber": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

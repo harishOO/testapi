@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dashboard": {
+    "host": "",
+    "port": 0,
+    "url": "",
+    "database": "dashboard",
+    "password": "",
+    "name": "dashboard",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
